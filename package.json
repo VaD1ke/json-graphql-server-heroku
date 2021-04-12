@@ -1,0 +1,24 @@
+{
+  "name": "json-graphql-server-deploy",
+  "version": "1.0.0",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "json-graphql-server db.js"
+  },
+  "keywords": [
+    "json-server,json-graphql-server,heroku, node, GRAPHQL API"
+  ],
+  "author": "Vladislav Slesarenko",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-graphql-server": "^2.2.2",
+    "path": "^0.12.7",
+    "reify": "^0.20.12",
+    "require": "^2.4.20"
+  }
+}
